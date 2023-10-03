@@ -17,3 +17,24 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
     PATCH version when you make backward compatible bug fixes
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+
+### Workling on env variables ##
+
+We use environemnt variables to pass some value to the system & use the viarable name fo rreference
+
+A good example would be exporting the http proxu on a linux system
+
+export http_proxy="http://ip:3128"
+or
+export http_proxy="http://fqdn:3128"
+
+We can print env variable using echo $http_proxy
+
+e.g
+
+http_proxy="http://ip:3128"
+
+export $http_proxy
+
+### End of env vars### 
