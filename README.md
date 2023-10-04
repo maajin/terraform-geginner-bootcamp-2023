@@ -38,3 +38,14 @@ http_proxy="http://ip:3128"
 export $http_proxy
 
 ### End of env vars### 
+
+### Setting env vars for AWS cli install script"""
+
+Wrote a shell script to check for existing setup of AWS cli, remove it & then do a fresh install.
+After the install it checks the caller identity
+'''
+UserId": "12343",
+    "Account": "5678",
+    "Arn": "arn:aws:iam::1bla bla"
+
+'''
