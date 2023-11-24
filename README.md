@@ -49,3 +49,21 @@ UserId": "12343",
     "Arn": "arn:aws:iam::1bla bla"
 
 '''
+Issue 10 
+
+- In this lecture we used random  provider block
+- provider was initialized & we generated random  bucket name.
+- we outputed bucket name result & id in the output
+
+**Providers** are inerfaces to API's that will allow to create resources in terraform.
+
+**Modules** are way to refactor & make terraform code modular,  portable & shareable.
+
+- We also learned about terraform console & we can see list of all terraform commands
+
+terraform init
+terrafor plan
+terraform apply
+
+
+
